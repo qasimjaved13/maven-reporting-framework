@@ -23,7 +23,7 @@ public class loginsteps extends BaseUtils {
     @Given("I navigate to login page")
     public void iNavigateToLoginPage() throws ClassNotFoundException {
         System.out.println("I navigate to login page");
-        base.Driver.navigate().to("http://neovare.sipisb.com/en/login");
+        base.Driver.navigate().to("http://test.neovare.com/en/login");
         base.Driver.manage().window().maximize();
     }
 
